@@ -1,0 +1,69 @@
+Avsnitt 1:
+
+Uppgift etts n_times funktion fungerar genom att ta in en integer och ett
+kodblock, för att sedan iterera över kodblocket "count" antal gånger.
+
+Repeat klassen tar emot en integer i konstruktorn istället och har sin iterering
+i each-metoden istället, men fungerar annars som n_times-funktionen.
+
+Denna kod skiljer sig ifrån vår genom att använda .upto-funktionen istället
+för en for-loop. Annars är koden i stort sett likadan.
+
+Uppgift tvås faculty-funktion fungerar genom att iterera från 1 till
+integer-variabeln "max" och och gångra resultatet med indexnumreringen varje
+genomkörning.
+
+Detta skiljer sig ifrån vår kod genom att använda .upto-funktionen istället
+för att använda .inject-funktionen.
+
+Avsnitt 2:
+
+Uppgift 5 fungerar genom att anropa tilldelningsoperatorn med input-strängen,
+denna funktion delar sedan på strängen och tilldelar variablerna name och
+surname förnamn respektive efternamn.
+Funktionen fullname returnerar sedan dessa variabler ihopsatta.
+
+Detta skiljer sig ifrån vår genom att tilldela variablerna i en
+tilldelningsoperator istället för att bara sätta variablera firstname och
+astname direkt i konstruktorn. Annars finns det få skillnader.
+
+Uppgift 6 fungerar genom att skapa age, name och birthyear som "attr_readers"
+alltså något som påminner om publika variabler i andra språk.
+Konstruktorn ser sedan till att tilldela rätt värden till alla dessa varibler
+genom att slå ihop namnet och beräkna födelseåret.
+
+Denna lösning skiljer sig ifrån vår genom att använda publika variabler för
+att komma åt innehållet istället för att skriva en getter-funktion.
+
+Avsnitt 3:
+
+Uppgift 7 använder sig av en rekursiv funktion med ett default-värde på sin
+inputvariabel, om inputvärdet är 0 eller 1 så returneras inputvärdet, annars
+returneras det tidigare talet i fibonacci-sekvensen plus det talet som kom innan
+det talet.
+Detta skapar en rekursiv definition på bara ett fåtal rader kod.
+
+Denna lösning är i princip likadan som vår, dock använder sig denna lösning
+av ett default-värde på inputvariabeln istället för två olika metoder, där
+den ena anropar den andra med "self" som inputvärde.
+
+Uppgift 8 verkar fungera genom att plocka ut den första bokstaven i varje ord,
+för att sedan appenda dem till en variabel, därefter ändras hela strängen till
+versaler.
+
+Denna lösning verkar fungera i omvänd ordning mot vår lösning, som först sätter
+de första bokstäverna i varje ord till stora bokstäver för att sedan plocka
+ut de första bokstäverna i varje ord och returnera dem.
+
+Avsnitt 4:
+
+Uppgift 10 fungerar genom att matcha det reguljära uttrycket /: (\S+)/ och
+sedan returnerar den första matchningen, detta fungerar nästan exakt likadant
+som våran lösning, dock hade vi uttrycket /USERNAME:\s[\wÅÄÖåäö]+/.
+
+Uppgift 11 fungerar genom att scanna efter det reguljära uttrycket
+/<(\w+)(?: |>)/ och sedan returnera det efter att ha plockat bort likadana
+resultat.
+
+Förutom beslutet att plocka bort likadana resultat, fungerar vår kod exakt
+likadant.

@@ -1,0 +1,13 @@
+Utvecklarblogg 3 		Davsp799 Kenbo736
+
+För uppgift 1 så ordnade vi poängsystemet som flera hashtabeller i policy filen.
+Därefter förljer en funktion "rules" där andra regler kan läggas till. Våran 
+evaluatePolicy funktion löser in hashtabellerna med hjälp av eval för att sedan 
+addera poängen som dess instansvariabler ger via policy reglerna. Sedan anropas 
+"rules" där variabler kan ändras, därefter returneras poängen.
+
+För uppgift 2 så utgick vi ifrån diceroll klassen, dock byttes namnet till ett 
+mer passande namn för språket. Reglerna sattes upp så som uppgiften krävde. 
+Vi utnyttjade en global hashtabell för att lagra variablerna. Dock skapades ett 
+oförklarligt problem, där de nya variablerna ej kunde läggas till. Förutom det 
+fungerar logiken som det ska.

@@ -1,0 +1,22 @@
+David Spove, Kenneth Börjesson
+
+1.
+Vi upptäckte till en början inte något fel med adder eller multiplier, vilket
+fick oss att direkt börja med att sätta upp själva nätverket i
+celsius2fahrenheit funktionen.
+
+Nätverket är uppsatt på detta sätt:
+
+C----|==|
+     |* |---T---|==|
+9/5--|==|       |+ |---F
+           32---|==|
+
+Vid testning upptäckte vi att den fungerade som förväntat vid konvertering
+från celsius till fahrenheit, dock upptäckte vi att den inte fungerade
+åt andra hållet. Detta fick oss att hitta felet i arithmeticConstraints
+funktion "new_value", vilket vi fixade genom att copy-pasta den existerande
+if-satsen med bytta variabel-platser och att skicka inverse_op istället för
+att bara skicka op.
+
+2.

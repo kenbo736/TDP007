@@ -1,0 +1,3 @@
+uppgift 1 (goal) och 1.1 (weather)
+
+För uppgift 1 så har de skapat en klass(String) som definerar ett regex uttryck sen har de skapat en funktion(read_file) som läser in filen, rad för rad, sen returnera den i slutet. Sen har de skapat en funktion(get_column) som splitar och returnerar kolumnen. Efter det så har de en funktion som heter get_column_difference som kollar differansen mellan två kolumner. 

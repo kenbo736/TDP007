@@ -1,0 +1,15 @@
+Utvecklarblogg (seminarie 2)
+
+
+För uppgift 1 så var vår idé att lagra den relevanta informationen i en klass som vi kallade för Team. Den kan returnera mål skillnaden och differansen från två olika funktioner (getGoalAbs() och getGoalDiff()). Till att börja med så öppnar man filen och med hjälp av regulära uttryck så intar vi lagnamnet och antalet gjorda mål och insläppta mål för varje lag och lagra det i en lista. Därefter itererar vi över listan och sparar undan det lag med minst skillnad mellan gjora och insläppta mål. Sist sorterar vi listan efter målskillnaden och sedan skriver vi ut listan. 
+För väderlistan så använde vi i stort sätt exakt samma program, men skillnaden var att vi använde lite anorlunda regulära uttryck och framförallt andra variabelnamn, funktionsnamn och klassnamn. 
+
+För uppgift 2 så var idén att använda DOM-parser, vi gick igenom varje div-element med attributet "class=vevent", därefter gick vi rekursivt igenom alla dess undertaggar och la till dess text i en lista. Efter det så skrev vi ut listan till en textfil som vi kallade "tempTextFile.txt". 
+
+I början hade vi svårt att komma på vad som faktiskt skulle testas i vår testfil. Dock fick vi efter ett tag kom vi fram till några ideér som kändes lämpliga att använda som testfall. Testet visar dock bara att testfilen fungerar, då resultatet från programmet redan bevisar att det fungerar. Detta gjorde att enhetstestningen blev lite onödig.
+
+davsp799
+kenbo736
+
+
+
